@@ -20,5 +20,12 @@ In baseline model which consist of a simple LSTM layer followed by linear layer.
 To compare result which can also be seen on figure mentioned inn appendix, non-baseline model which is CNN-LSTM hybrid model works slight better than baseline model with accuracy ranging upto 58.4% for test set 1 and 51.9 % for test set 2. Which can be considered a good model given such a small amount of data.
 
 <div>
-<img src="https://github.com/shahkarKhan24/Sentiment-Analysis-With-LSTMs/blob/main/Images/baseline.png" width="700" alt="Baseline"/>
+ ** Baseline Loss and Accuracy Plot**
+<img src="https://github.com/shahkarKhan24/Sentiment-Analysis-With-LSTMs/blob/main/Images/baseline.png" width="500" alt="Baseline"/>
+</div>
+
+
+<div>
+  **Extra Baseline Loss and Accuracy Plot**
+<img src="https://github.com/shahkarKhan24/Sentiment-Analysis-With-LSTMs/blob/main/Images/Extra-Baseline.png" width="500" alt="Baseline"/>
 </div>

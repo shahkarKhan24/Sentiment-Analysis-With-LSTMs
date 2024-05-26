@@ -1,5 +1,5 @@
 ## Sentiment-Analysis-With-LSTMs
-In this Repo I Designed two models to detect Sentiment Analysis given a small dataset.
+In this Repo I designed two models to detect Sentiment Analysis given a small dataset.
 
 **Introduction**:
 The task that I am working on is like a sentiment analysis given a certain sentence. I must design a model to predict the sentiment of that sentence i.e. neutral or hateful.

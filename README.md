@@ -1,3 +1,4 @@
+<a href= "https://colab.research.google.com/github/shahkarKhan24/Sentiment-Analysis-With-LSTMs/blob/main/Notebook.ipynb">   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></h2>
 <h3>Introduction:</h3>
 The task that I am working on is like a sentiment analysis given a certain sentence. I must design a model to predict the sentiment of that sentence i.e. neutral or hateful.
 
@@ -12,7 +13,7 @@ I implemented two models, one for base line and other extra for improving accura
 
 <h3>Design Choices:</h3>
 I chose Adam optimizer which works best in most of the LSTM model with learning rate of 0.0001 which was found suitable after grid search. Also, by trail and run I chose a dropout of 0.4 in my model. For a batch size of 128, I ran my model for like 30 epoch which was way more given a small training dataset.
-Baseline Model:
+<h3>Baseline Model:</h3>
 In baseline model which consist of a simple LSTM layer followed by linear layer. First trained my model without any validation set the accuracy was about 48 -53 % on both test set, I also use early stopping just in case if the model overfit the training stop after 20 epoch because there was no improvement in loss of validation set. but it seems like the dataset is too small to acquire a decent accuracy.
 
 <div>
